@@ -1,16 +1,16 @@
-Cookiecutter django/django-rest-framework with vue/vuetify
+Cookiecutter django with vue
 ===========================================================
 
 Powered by [Cookiecutter](https://github.com/audreyr/cookiecutter)
 
 ## Features
 
-1. Docker
-2. Backend: django + django-rest-framework
-3. Frontend: vue + vuetify
-4. Database: sqlite3(local) + postgresql(production)
-5. Server: Nginx
-6. Authentication: JWT authentication
+1. **Docker**
+2. **Backend**: django + django-rest-framework
+3. **Frontend**: vue + vuetify
+4. **Database**: sqlite3(local) + postgresql(production)
+5. **Server**: Nginx
+6. **Authentication**: JWT authentication
 
 
 ## Usage
