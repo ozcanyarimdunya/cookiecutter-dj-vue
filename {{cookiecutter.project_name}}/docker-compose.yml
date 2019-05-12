@@ -1,0 +1,26 @@
+version: '3'
+
+volumes:
+  postgres_data: {}
+
+services:
+
+  database:
+    image: postgres:alpine
+    restart: unless-stopped
+    volumes:
+      - 'postgres_data:/var/lib/postgresql/data'
+    env_file:
+      - .env
+
+  webapp:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - database
+    command: sh start.sh
+    entrypoint: /app/entrypoint.sh
+    env_file:
+      - .env
+    ports:
+      - 8000:80

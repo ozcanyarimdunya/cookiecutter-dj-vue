@@ -1,0 +1,25 @@
+{
+  "name": "{{cookiecutter.project_name}}",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "material-design-icons-iconfont": "^3.0.3",
+    "roboto-fontface": "*",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuetify": "^1.5.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

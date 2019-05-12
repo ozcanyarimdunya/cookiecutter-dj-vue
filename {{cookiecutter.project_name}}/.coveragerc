@@ -1,0 +1,9 @@
+[report]
+skip_covered = True
+show_missing = True
+omit =
+    manage.py
+    apps/*/migrations/*
+    apps/*/tests.py
+    apps/*/management/commands/*
+    config/*
